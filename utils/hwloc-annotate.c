@@ -4,7 +4,7 @@
  */
 
 #include <private/private.h>
-#include <hwloc-calc.h>
+#include "hwloc-calc.h"
 #include <hwloc.h>
 
 #include <stdlib.h>

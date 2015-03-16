@@ -7,7 +7,7 @@
  */
 
 #include <private/private.h>
-#include <hwloc-calc.h>
+#include "hwloc-calc.h"
 #include <hwloc.h>
 
 #ifdef HAVE_UNISTD_H

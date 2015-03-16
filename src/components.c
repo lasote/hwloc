@@ -295,7 +295,7 @@ hwloc_disc_component_register(struct hwloc_disc_component *component,
   return 0;
 }
 
-#include <static-components.h>
+#include "static-components.h"
 
 void
 hwloc_components_init(struct hwloc_topology *topology __hwloc_attribute_unused)
