@@ -22,7 +22,7 @@
 #ifndef HWLOC_PRIVATE_H
 #define HWLOC_PRIVATE_H
 
-#include <private/autogen/config.h>
+#include "private/autogen/config.h"
 #include <hwloc.h>
 #include <hwloc/bitmap.h>
 #include <private/components.h>
