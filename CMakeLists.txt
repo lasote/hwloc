@@ -55,6 +55,10 @@ endforeach()
 
 ADD_BIICODE_TARGETS()
 
+IF(LINUX)
+	target_link_libraries(${BII_LIB_TARGET} PUBLIC termcap)
+ENDIF()
+
 # You can safely delete lines from here...
 
 ###############################################################################
